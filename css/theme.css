@@ -5399,10 +5399,10 @@ textarea.form-control-lg {
 }
 
 .badge {
-  --bs-badge-padding-x: 0.65em;
-  --bs-badge-padding-y: 0.35em;
-  --bs-badge-font-size: 0.75em;
-  --bs-badge-font-weight: 700;
+  --bs-badge-padding-x: 0.75em;
+  --bs-badge-padding-y: 0.5em;
+  --bs-badge-font-size: 0.85em;
+  --bs-badge-font-weight: 300;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: 0;
   display: inline-block;
@@ -15437,6 +15437,19 @@ footer.site-footer p {
 .object-fit-cover {
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.card .badge {
+  font-weight: 300;
+  padding: 0.5em 0.75em;
+  letter-spacing: 0.025em;
+}
+.card .badge i {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+.card .badge.bg-light {
+  border: 1px solid #e9ecef;
 }
 
 /*# sourceMappingURL=theme.css.map */
