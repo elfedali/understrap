@@ -1,0 +1,43 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+$primary: #ff201c;
+$red: #ff201c;
+$purple: #6c35eb;
+$secondary: #6c35eb;
+$body-color: #1a1b1e;
+$dark: #1a1b1e;
+
+$font-family-base: "RF Dewi", sans-serif;
+$font-family-heading: "RF Dewi", sans-serif;
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$btn-font-weight: 600;
+$btn-font-size: 1rem; // 0.9375rem; // 15px
+
+$btn-font-weight: 700;
+$btn-font-size: 0.9375rem; // 15px
+$btn-font-family: "RF Dewi", sans-serif;
+
+$headings-font-weight: 600;
+$font-weight-bold: 700;
+
+$card-spacer-y: 40px;
+$card-spacer-x: 40px;
+
+$input-bg: #f7f7f8;
+$input-border-radius: 0;
+$input-border-color: transparent;
+$input-btn-focus-box-shadow: none;
+// $input-focus-color: lighten($purple, 20%);
+$input-focus-bg: transparent;
+$input-focus-border-color: lighten($purple, 40%);
+
+$accordion-border-width: 0;
+$accordion-padding-y: 1.5rem;
+
+$line-height-base: 1.9;
