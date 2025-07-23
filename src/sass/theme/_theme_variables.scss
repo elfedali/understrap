@@ -11,6 +11,10 @@ $dark: #1a1b1e;
 
 $font-family-base: "RF Dewi", sans-serif;
 $font-family-heading: "RF Dewi", sans-serif;
+// 17px to rem
+$font-size-base: 1.0625rem; // 17px
+$font-size-lg: 1.125rem; // 18px
+$font-size-sm: 0.9375rem; // 15px
 
 $border-radius: 0;
 $border-radius-lg: 0;
@@ -47,3 +51,5 @@ $badge-font-weight: 300; // Light font weight
 $badge-padding-y: 0.5em; // Increase height slightly
 $badge-padding-x: 0.75em;
 $badge-font-size: 0.85em;
+$badge-color: $body-color; // Use body color for text
+

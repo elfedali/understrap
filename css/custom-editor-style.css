@@ -40,47 +40,52 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.390625rem + 1.6875vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 2.65625rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.3375rem + 1.05vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.125rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.3109375rem + 0.73125vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 1.859375rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.284375rem + 0.4125vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 1.59375rem;
   }
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: calc(1.2578125rem + 0.09375vw);
+}
+@media (min-width: 1200px) {
+  h5, .h5 {
+    font-size: 1.328125rem;
+  }
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.0625rem;
 }
 
 p {
@@ -459,7 +464,7 @@ progress {
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: RF Dewi, sans-serif;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.0625rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.9;
   --bs-body-color: #1a1b1e;
@@ -1847,8 +1852,13 @@ progress {
   }
 }
 .lead {
-  font-size: 1.25rem;
+  font-size: calc(1.2578125rem + 0.09375vw);
   font-weight: 300;
+}
+@media (min-width: 1200px) {
+  .lead {
+    font-size: 1.328125rem;
+  }
 }
 
 .display-1 {
@@ -1941,7 +1951,12 @@ progress {
 
 .blockquote, .wp-block-quote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: calc(1.2578125rem + 0.09375vw);
+}
+@media (min-width: 1200px) {
+  .blockquote, .wp-block-quote {
+    font-size: 1.328125rem;
+  }
 }
 .blockquote > :last-child, .wp-block-quote > :last-child {
   margin-bottom: 0;
@@ -2011,7 +2026,7 @@ progress {
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: RF Dewi, sans-serif;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.0625rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.9;
   --bs-body-color: #1a1b1e;
@@ -3308,27 +3323,27 @@ progress {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: calc(1.390625rem + 1.6875vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(1.3375rem + 1.05vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: calc(1.3109375rem + 0.73125vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: calc(1.284375rem + 0.4125vw) !important;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.2578125rem + 0.09375vw) !important;
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.0625rem !important;
 }
 
 .fst-italic {
@@ -6177,16 +6192,19 @@ progress {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 2.5rem !important;
+    font-size: 2.65625rem !important;
   }
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 2.125rem !important;
   }
   .fs-3 {
-    font-size: 1.75rem !important;
+    font-size: 1.859375rem !important;
   }
   .fs-4 {
-    font-size: 1.5rem !important;
+    font-size: 1.59375rem !important;
+  }
+  .fs-5 {
+    font-size: 1.328125rem !important;
   }
 }
 @media print {
@@ -6623,7 +6641,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .editor-post-title .editor-post-title__input {
-  font-size: 2.5rem;
+  font-size: 2.65625rem;
   font-weight: 600;
 }
 

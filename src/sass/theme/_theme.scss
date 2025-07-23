@@ -203,24 +203,4 @@
     object-fit: cover;
   }
 
-// ========================
-// Badge Customizations
-// ========================
-// Specific styling for offer cards badges
-.card .badge {
-  font-weight: 300;
-  padding: 0.5em 0.75em;
-  letter-spacing: 0.025em;
-  
-  // Icon spacing in badges
-  i {
-    font-size: 0.9em;
-    opacity: 0.8;
-  }
-  
-  // Specific styling for location badges
-  &.bg-light {
-    border: 1px solid #e9ecef;
-  }
-}
 
