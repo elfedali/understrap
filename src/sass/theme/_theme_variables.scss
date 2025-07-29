@@ -52,4 +52,21 @@ $badge-padding-y: 0.5em; // Increase height slightly
 $badge-padding-x: 0.75em;
 $badge-font-size: 0.85em;
 $badge-color: $body-color; // Use body color for text
+$spacer: 1rem; // Space between badges
 
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4.5, // new
+    7: $spacer * 6,   // new
+    8: $spacer * 8    // new
+    
+  ),
+  ()
+);
