@@ -8,6 +8,7 @@ $purple: #6c35eb;
 $secondary: #6c35eb;
 $body-color: #1a1b1e;
 $dark: #1a1b1e;
+$light :#F7F7F8;
 
 $font-family-base: "RF Dewi", sans-serif;
 $font-family-heading: "RF Dewi", sans-serif;
@@ -70,3 +71,5 @@ $spacers: map-merge(
   ),
   ()
 );
+
+$display-font-weight: 700; // Bold font weight for display text
