@@ -67,8 +67,12 @@ $spacers: map-merge(
     5: $spacer * 3,
     6: $spacer * 4.5, // new
     7: $spacer * 6,   // new
-    8: $spacer * 8    // new
-    
+    8: $spacer * 8 ,   // new
+    9: $spacer * 10,  // new
+    10: $spacer * 12, // new
+    11: $spacer * 14, // new
+    12: $spacer * 16  // new
+
   ),
   ()
 );
