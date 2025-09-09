@@ -13,10 +13,10 @@ $light :#F7F7F8;
 $font-family-base: "RF Dewi", sans-serif;
 $font-family-heading: "RF Dewi", sans-serif;
 
-// 17px to rem
-$font-size-base: 1.0625rem; // 17px
-$font-size-lg: 1.125rem; // 18px
-$font-size-sm: 0.9375rem; // 15px
+// 16px to rem (reduced from 17px)
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.0625rem; // 17px
+$font-size-sm: 0.875rem; // 14px
 
 $border-radius: 0;
 $border-radius-lg: 0;
@@ -25,12 +25,22 @@ $border-radius-sm: 0;
 $btn-font-weight: 600;
 $btn-font-size: 1rem; // 0.9375rem; // 15px
 
-$btn-font-weight: 700;
+
 $btn-font-size: 0.9375rem; // 15px
 $btn-font-family: "RF Dewi", sans-serif;
 
 $headings-font-weight: 700;
 $font-weight-bold: 700;
+// $light : #FFF;
+$btn-light-bg: #FFF;
+
+// Heading font sizes (34px for main titles)
+$h1-font-size: 2.125rem; // 34px
+$h2-font-size: 2.125rem; // 34px
+$h3-font-size: 1.5rem;   // 24px
+$h4-font-size: 1.25rem;  // 20px
+$h5-font-size: 1.125rem; // 18px
+$h6-font-size: 1rem;     // 16px
 
 $card-spacer-y: 40px;
 $card-spacer-x: 40px;
@@ -46,7 +56,7 @@ $input-focus-border-color: lighten($purple, 40%);
 $accordion-border-width: 0;
 $accordion-padding-y: 1.5rem;
 
-$line-height-base: 1.9;
+$line-height-base: 1.5;
 
 // Badge customizations
 $badge-font-weight: 300; // Light font weight
