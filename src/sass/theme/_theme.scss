@@ -172,13 +172,13 @@
             }
           }
 
-          &.current-menu-item {
+          &.current-menu-item  > a{
             font-weight: 600;
             opacity: 1;
             color: $primary;
             transition: opacity 0.3s ease-in-out;
 
-            a {
+            > a {
               opacity: 1;
               color: $primary;
             }

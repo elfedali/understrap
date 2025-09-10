@@ -17922,13 +17922,13 @@ footer.site-footer .widget ul > li a:hover {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
-footer.site-footer .widget ul > li.current-menu-item {
+footer.site-footer .widget ul > li.current-menu-item > a {
   font-weight: 600;
   opacity: 1;
   color: #ff201c;
   transition: opacity 0.3s ease-in-out;
 }
-footer.site-footer .widget ul > li.current-menu-item a {
+footer.site-footer .widget ul > li.current-menu-item > a > a {
   opacity: 1;
   color: #ff201c;
 }
