@@ -9,98 +9,7 @@
 // ========================
 // Header Styles
 // ========================
-.nav-main-header {
-    // background-color: $dark;
-  
-    h2 {
-      font-size: 1.125rem; // 18px
-      font-weight: 600;
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-    }
-  
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 2rem;
-  
-      ul {
-        padding-left: 1.5rem; // 24px
-        margin: 0.5rem 0;
-      }
-    }
-  
-    li {
-      text-transform: uppercase;
-    }
-  
-    .widget-area-header {
-      padding: 0 3rem;
-  
-      &:not(:last-child) {
-        border-right: 1px solid rgba(255, 255, 255, 0.1);
-      }
-    }
-  
-    .widget-title {
-      @extend h2;
-    }
-  
-    .widget {
-      margin-bottom: 2rem;
-  
-      p {
-        font-size: 0.875rem;
-        line-height: 1.9;
-        margin-bottom: 1rem;
-        opacity: 0.8;
-      }
-  
-      ul {
-        list-style: none;
-        padding-left: 0;
-  
-        > li {
-          font-size: 0.875rem;
-          line-height: 2;
-  
-          a {
-            color: inherit;
-            text-decoration: none;
-            // opacity: 0.6; 
-  
-            &:hover {
-              opacity: 1;
-              transition: opacity 0.3s ease-in-out;
-            }
-          }
-  
-          &.current-menu-item {
-            font-weight: 600;
-            opacity: 1;
-            color: $primary;
-            transition: opacity 0.3s ease-in-out;
-          }
-  
-          ul {
-            padding-left: 1.5rem;
-  
-            li:not(.current-menu-item) {
-              a {
-                color: white;
-              }
-            }
-          }
-        }
-      }
-    }
-  
-    #header-contact {
-      li {
-        opacity: 1 !important;
-      }
-    }
-  }
+
   
   body.admin-bar .nav-main-header.fixed-top {
     top: 32px !important;
@@ -117,7 +26,7 @@
   // ========================
   // Footer Styles
   // ========================
-  footer.site-footer {
+  footer.site-footer, .nav-main-header  {
     h2,
     h3 {
       font-size: 20px;
